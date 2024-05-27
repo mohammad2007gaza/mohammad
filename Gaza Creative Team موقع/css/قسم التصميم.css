@@ -1,0 +1,61 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color:  #f9ecec;
+    color: #333;
+    line-height: 1.6;
+}
+
+html{direction: rtl;}
+.main-header {
+    background-color: #333;
+    color: #f9ecec;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.design-section {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.design-item {
+    float: left;
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    background: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.1);
+}
+
+.design-item img {
+    width: 100%;
+}
+
+#contact-form {
+    background: #f4f4f4;
+    padding: 2em;
+    margin-top: 2em;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 2em;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    color: #fff;
+    background: #333;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e9fd;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b56fc1;
+    color: black;
+    text-align: center;
+}
+.oiu1{text-align: center;}
+
+#facebook {
+    color: blue;
+}
+
+#twitter {
+    color: cyan;
+}
+
+#instagram {
+    color: purple;
+}

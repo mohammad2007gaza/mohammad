@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav {
+    background-color: #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* الألوان الجديدة للأقسام */
+#section1 {
+    background-color: #f9ecec;
+}
+
+#section2 {
+    background-color: #e9f7ef;
+}
+
+#section3 {
+    background-color: #fdf2e9;
+}
+
+#section4 {
+    background-color:#e9f3fd  ;
+}
+
+#section5 {
+    background-color: #f5e9fd;
+}
+
+/* تكبير النص عند تمرير الماوس */
+.section:hover {
+    transform: scale(1.05);
+}
+html{direction: rtl;}

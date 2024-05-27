@@ -1,0 +1,53 @@
+body {
+    background-color: #e9f3fd;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    direction: rtl;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin: 15px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: transform .2s; /* Animation */
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#choose-service {
+    color: #008CBA; /* Blue color */
+}
+
+#choose-service ul {
+    color: #4CAF50; /* Green color */
+}
+
+.english {
+    direction: rtl;
+    unicode-bidi: embed;
+}

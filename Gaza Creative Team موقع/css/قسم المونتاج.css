@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f7ef; /* Background color for the entire page */
+}
+
+.header {
+    background-color: #333; /* Color of the top part */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #e9f7ef ;
+}
+
+.section {
+    background-color: #e8f9e9; /* Light green color */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#section1 {
+    background-color: #d3e0ea;
+}
+
+#section2 {
+    background-color: #c2d6d6;
+}
+
+#section3 {
+    background-color: #e0e0d1;
+}
+html{direction: rtl;}
+

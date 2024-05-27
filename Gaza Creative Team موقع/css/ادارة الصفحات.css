@@ -1,0 +1,40 @@
+body {
+    font-family: 'Tajawal', sans-serif; /* تغيير الخط إلى Tajawal لجعله أكثر راحة للعين */
+    font-size: 18px; /* تكبير الخط */
+    background-color: #fdf2e9; /* تغيير لون الخلفية */
+    color: #333; /* تغيير لون النص */
+}
+
+.page {
+    margin-bottom: 15px;
+}
+
+.page-title {
+    font-weight: bold;
+}
+
+.header {
+    margin-bottom:20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px; /* تكبير الرأس */
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* لون خفيف للأقسام */
+    border-radius: 5px; /* تقريب الزوايا */
+}
+
+#section1 {
+    background-color: #d3e0ea;
+}
+
+#section2 {
+    background-color: #c2d6d6;
+}
+
+/* قم بإضافة المزيد من الأنماط هنا لتحسين الجاذبية */
+html{direction: rtl;}
